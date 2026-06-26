@@ -19,7 +19,7 @@ export interface SubQuestion {
 export interface EssayQuestion {
   id: number
   text: string
-  points: number
+  points?: number
   subquestions?: SubQuestion[]
 }
 
